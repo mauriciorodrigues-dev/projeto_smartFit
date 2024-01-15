@@ -1,16 +1,9 @@
-
+/* importando CSS */
 @import url(css/header.css);
 @import url(css/footer.css);
 @import url(css/form.css);
 @import url(css/variables.css);
 @import url(css/general.css);
+@import url(css/media_query.css);
 
 
-/* 
-    Instalação de Fontes
-*/
-
-
-body {
-    font-family: 'Gotham Book', sans-serif;
-}

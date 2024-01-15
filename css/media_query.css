@@ -1,0 +1,9 @@
+@media (min-width: 450px){
+    .logo {
+        width: 100%;
+        background-color: var(--black);
+        height: 15vh;
+        display: grid;
+        place-items: center;
+    }
+}

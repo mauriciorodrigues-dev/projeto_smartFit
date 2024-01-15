@@ -1,0 +1,52 @@
+@import url(variables.css);
+
+.logo {
+    width: 100%;
+    background-color: var(--black);
+    height: 25vh;
+    display: grid;
+    place-items: center;
+}
+
+.logo .img-logo {
+    width: 200px;
+}
+
+.description-text {
+    width: 80%;
+    margin: 70px auto;
+
+}
+
+.description-text h1 {
+    font-family: 'Gotham Bold';
+    color: var(--text-grey);
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    font-size: 2.05em;
+}
+
+.description-paragraph-text::before {
+    content: '';
+    width: 100px;
+    height: 10px;
+    background-color: var(--black);
+    position: absolute;
+    margin: -45px 0;
+    
+}
+
+.description-paragraph-text {
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Gotham Light';
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+}
+
+.description-paragraph-text p {
+    line-height: 1.5;
+    /* text-align: justify; */
+}
