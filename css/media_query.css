@@ -6,4 +6,7 @@
         display: grid;
         place-items: center;
     }
+    .description-paragraph-text p {
+        font-size: 1.05em;
+    }
 }

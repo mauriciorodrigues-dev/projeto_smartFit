@@ -22,7 +22,47 @@
         </p>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="form-choice">
+        <div class="logo-time">
+          <img src="img/icon-hour.png" alt="">
+          <h3>Horário</h3>
+        </div>
+        <h2>Qual período quer treinar?</h2>
+        <form class="form-timetable" action="">
+          <div class="time">
+            <div class="input-radio-check">
+              <input type="radio" name="period" id="morning" value="morning">
+              <label for="morning">Manhã</label>
+            </div>
+            <p>06:00 às 12:00</p>
+          </div>
+          <div class="time">
+            <div class="input-radio-check">
+              <input type="radio" name="period" id="afternoon" value="afternoon">
+              <label for="afternoon">Tarde</label>
+            </div>
+            <p>12:01 às 18:00</p>
+          </div>
+          <div class="time">
+            <div class="input-radio-check">
+              <input type="radio" name="period" id="night" value="night">
+              <label for="night">Noite</label>
+            </div>
+            <p>18:01 às 23:00</p>
+          </div>
+          <div class="checkbox-check">
+            <div class="check">
+              <input type="checkbox" name="closed" id="closed">
+              <label for="closed">Exibir unidades fechadas</label>
+            </div>
+            <div class="results">
+              <p>Resultados encontrados: <span>0</span></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
     <footer></footer>
     <script src="js/form.js"></script>
   </body>

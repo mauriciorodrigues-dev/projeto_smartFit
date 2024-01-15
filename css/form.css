@@ -1,0 +1,61 @@
+@import url(variables.css);
+
+* {
+    font-family: 'Gotham Light';
+    /* font-weight: bold; */
+    font-size: 1em;
+    color: var(--light-grey);
+    font-weight: 200;
+
+}
+.form-choice {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px solid var(--color-line);
+    border-radius: 10px;
+}
+
+.form-choice .logo-time {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+.form-choice .logo-time img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.form-choice h2 {
+    padding: 10px;
+    font-size: 1.08em;
+    border-bottom: 2px solid var(--color-line);
+}
+.form-choice .time {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--color-line);
+}
+
+.checkbox-check{
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.checkbox-check .check, .results {
+    width: 100%;
+    margin: 10px;
+}
+
+.checkbox-check .check input {
+    margin-right: 10px;
+}
+
+.checkbox-check .results p span {
+    font-weight: bold;
+}
