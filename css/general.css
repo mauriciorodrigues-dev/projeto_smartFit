@@ -6,29 +6,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gotham';
 }
 
 /* Instalação de Fontes */
 @font-face {
-    font-family: 'Gotham Light';
+    font-family: 'Gotham';
     src: url('../fonts/gotham-light.woff2') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gotham Black';
+    font-family: 'Gotham';
     src: url('../fonts/gotham-black.woff2') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gotham Bold';
+    font-family: 'Gotham';
     src: url('../fonts/gotham-bold.woff2') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gotham Book';
+    font-family: 'Gotham';
     src: url('../fonts/gotham-book.woff2') format('truetype');
     font-weight: 900;
     font-style: normal;

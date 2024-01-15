@@ -1,7 +1,7 @@
 @import url(variables.css);
 
 * {
-    font-family: 'Gotham Light';
+    
     /* font-weight: bold; */
     font-size: 1em;
     color: var(--light-grey);
@@ -49,6 +49,7 @@
 
 .checkbox-check .check, .results {
     margin: 10px;
+    
 }
 
 .checkbox-check .check input {
@@ -77,6 +78,7 @@
     padding: 14px;
     width: 80%;
     border: none;
+    cursor: pointer;
 }
 
 .form-timetable .btn-group .btn-search {
