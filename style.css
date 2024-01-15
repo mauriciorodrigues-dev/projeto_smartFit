@@ -3,9 +3,14 @@
 @import url(css/footer.css);
 @import url(css/form.css);
 @import url(css/variables.css);
+@import url(css/general.css);
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* 
+    Instalação de Fontes
+*/
+
+
+body {
+    font-family: 'Gotham Book', sans-serif;
 }
