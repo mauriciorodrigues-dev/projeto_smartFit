@@ -44,16 +44,14 @@
 .checkbox-check{
     width: 100%;
     flex-direction: column;
-
 }
 
 .checkbox-check .check, .results {
-    width: 100%;
     margin: 10px;
 }
 
 .checkbox-check .check input {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .checkbox-check .results p span {

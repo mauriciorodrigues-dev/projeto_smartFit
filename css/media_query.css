@@ -1,4 +1,4 @@
-@media (min-width: 450px){
+@media (min-width: 750px){
     .logo {
         width: 100%;
         background-color: var(--black);
@@ -9,4 +9,13 @@
     .description-paragraph-text p {
         font-size: 1.05em;
     }
-}
+
+    .checkbox-check{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+} 
