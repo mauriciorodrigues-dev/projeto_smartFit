@@ -20,28 +20,13 @@
     }
 
     .form-timetable .btn-group {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
         flex-direction: row;
     }
     
     .form-timetable .btn-group .btn {
-        font-size: 18px;
-        border-radius: 4px;
-        color: var(--dark-grey);
-        font-weight: bold;
-        text-transform: uppercase;
-        padding: 14px;
         width: 25%;
-        border: none;
     }
 
-    .form-timetable .btn-group .btn-clear {
-        background-color: transparent;
-        border: 1px solid var(--text-light);
-    }
+    
 
 } 
