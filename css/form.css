@@ -34,7 +34,7 @@
 }
 .form-choice .time {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,6 +44,7 @@
 .checkbox-check{
     width: 100%;
     flex-direction: column;
+    margin: 32px 0px;
 }
 
 .checkbox-check .check, .results {
@@ -56,4 +57,34 @@
 
 .checkbox-check .results p span {
     font-weight: bold;
+}
+
+.form-timetable .btn-group {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-timetable .btn-group .btn {
+    font-size: 18px;
+    border-radius: 4px;
+    color: var(--dark-grey);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 14px;
+    width: 80%;
+    border: none;
+}
+
+.form-timetable .btn-group .btn-search {
+    background-color: var(--yellow);
+    border: 1px solid var(--dark-grey);
+}
+
+.form-timetable .btn-group .btn-clear {
+    background-color: transparent;
+    border: 1px solid var(--text-light);
 }

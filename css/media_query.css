@@ -1,4 +1,5 @@
 @media (min-width: 750px){
+        /* Header */
     .logo {
         width: 100%;
         background-color: var(--black);
@@ -9,13 +10,38 @@
     .description-paragraph-text p {
         font-size: 1.05em;
     }
-
+    /* Formulário */
     .checkbox-check{
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
+    }
+
+    .form-timetable .btn-group {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    
+    .form-timetable .btn-group .btn {
+        font-size: 18px;
+        border-radius: 4px;
+        color: var(--dark-grey);
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 14px;
+        width: 25%;
+        border: none;
+    }
+
+    .form-timetable .btn-group .btn-clear {
+        background-color: transparent;
+        border: 1px solid var(--text-light);
     }
 
 } 
