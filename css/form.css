@@ -1,8 +1,6 @@
 @import url(variables.css);
 
 * {
-    
-    /* font-weight: bold; */
     font-size: 1em;
     color: var(--light-grey);
     font-weight: 200;
@@ -49,7 +47,6 @@
 
 .checkbox-check .check, .results {
     margin: 10px;
-    
 }
 
 .checkbox-check .check input {
