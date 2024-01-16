@@ -6,6 +6,7 @@
     font-weight: 200;
 
 }
+
 .form-choice {
     width: 80%;
     margin: 30px auto;
@@ -25,11 +26,12 @@
     margin-right: 10px;
 }
 
-.form-choice h2 {
+.form-choice .question {
     padding: 10px;
     font-size: 1.08em;
     border-bottom: 2px solid var(--color-line);
 }
+
 .form-choice .time {
     width: 100%;
     padding: 8px;
@@ -39,21 +41,16 @@
     border-bottom: 2px solid var(--color-line);
 }
 
-.checkbox-check{
-    width: 100%;
+.form-choice .checkbox-check {
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
     flex-direction: column;
-    margin: 32px 0px;
+    justify-content: space-around;
+    padding: 10px;
 }
 
-.checkbox-check .check, .results {
-    margin: 10px;
-}
-
-.checkbox-check .check input {
-    margin-right: 5px;
-}
-
-.checkbox-check .results p span {
+.form-choice .checkbox-check .results span{
     font-weight: bold;
 }
 

@@ -11,12 +11,13 @@
         font-size: 1.05em;
     }
     /* Formulário */
-    .checkbox-check{
-        width: 100%;
+    .form-choice .checkbox-check {
+        height: 80px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
         flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
     }
 
     .form-timetable .btn-group {
