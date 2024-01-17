@@ -1,5 +1,6 @@
-@media (min-width: 750px){
-        /* Header */
+@media (min-width: 750px) {
+
+    /* Header */
     .logo {
         width: 100%;
         background-color: var(--black);
@@ -7,10 +8,25 @@
         display: grid;
         place-items: center;
     }
+
+    .description-text {
+        max-width: 50%;
+
+    }
+
+    .description-paragraph-text {
+        max-width: 50%;
+    }
+
     .description-paragraph-text p {
         font-size: 1.05em;
     }
+
     /* Formulário */
+    .form-choice {
+        max-width: 50%;
+    }
+
     .form-choice .checkbox-check {
         height: 80px;
         display: flex;
@@ -23,11 +39,22 @@
     .form-timetable .btn-group {
         flex-direction: row;
     }
-    
+
     .form-timetable .btn-group .btn {
-        width: 25%;
+        width: 30%;
     }
 
-    
+    .legend {
+        max-width: 50%;
+    }
 
-} 
+    .list-container {
+        max-width: 50%;
+    }
+
+    .list-container .card {
+        max-width: 300px;    
+    }
+
+
+}

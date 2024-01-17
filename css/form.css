@@ -8,7 +8,7 @@
 }
 
 .form-choice {
-    width: 80%;
+    max-width: 60%;
     margin: 30px auto;
     padding: 20px;
     border: 5px solid var(--color-line);
@@ -28,7 +28,7 @@
 
 .form-choice .question {
     padding: 10px;
-    font-size: 1.08em;
+    font-size: 1.8em;
     border-bottom: 2px solid var(--color-line);
 }
 
@@ -52,6 +52,7 @@
 
 .form-choice .checkbox-check .results span{
     font-weight: bold;
+    font-size: 1.8em;
 }
 
 .form-timetable .btn-group {
@@ -77,10 +78,11 @@
 
 .form-timetable .btn-group .btn-search {
     background-color: var(--yellow);
-    border: 1px solid var(--dark-grey);
+    width: 100%;
 }
 
 .form-timetable .btn-group .btn-clear {
     background-color: transparent;
     border: 1px solid var(--text-light);
+    width: 100%;
 }

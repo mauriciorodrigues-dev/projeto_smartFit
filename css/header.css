@@ -13,7 +13,7 @@
 }
 
 .description-text {
-    width: 80%;
+    max-width: 60%;
     margin: 70px auto;
 
 }
@@ -38,12 +38,13 @@
 }
 
 .description-paragraph-text {
-    width: 80%;
+    max-width: 60%;
     margin: 20px auto;
     font-family: 'Gotham Light';
     font-weight: bold;
     font-size: 1em;
     position: relative;
+    text-align: justify;
 }
 
 .description-paragraph-text p {

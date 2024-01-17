@@ -1,10 +1,10 @@
 .legend {
-    max-width: 80%;
+    max-width: 60%;
     width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: var(--b-color-legend);
     gap: 20px;
