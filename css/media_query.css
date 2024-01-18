@@ -56,5 +56,12 @@
         max-width: 300px;    
     }
 
+    footer {
+        height: 15vh;
+    }
+
+    footer .footer-container img {
+        height: 30px;
+    }
 
 }
